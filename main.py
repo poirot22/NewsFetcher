@@ -18,7 +18,7 @@ toiHeadlines=fetcher.getTOIHeadlines()
 
 mail = EmailMessage()
 mail['Subject'] = "Here are today's headlines"
-mail['from'] = "testermailforharry@gmail.com"
+mail['from'] = EMAIL
 
 for i in subscribers.keys():
 
